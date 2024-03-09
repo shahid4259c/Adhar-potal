@@ -1,0 +1,73 @@
+.AdharContainer {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 1px 3px 4px black;
+    margin-top: 30px;
+  }
+  
+  .ContainerHeading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .UserDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  .Link {
+    margin-top: 10px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .Link:hover {
+    color: #000000;
+  }
+  
+  .input:hover {
+    background-color: #f7ad19;
+  }
+  
+  .InputRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .InputHalf {
+    width: 48%;
+  }
+  
+  /* Add additional styling as needed for your design */
+  

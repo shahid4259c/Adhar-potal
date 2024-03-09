@@ -1,0 +1,20 @@
+{
+  "short_name": "React App",
+  "name": "Aadhar Card Generation Portal",
+  "icons": [
+    {
+      "src": "/Aadhaar_Preview.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/india_emblem_1.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

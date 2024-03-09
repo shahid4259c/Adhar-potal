@@ -1,0 +1,127 @@
+.GenerateAadharContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 1px 3px 4px black;
+  margin-top: 100px;
+}
+
+.ContainerHeading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.AdharNumber,
+.ReenterAdharNumber {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.Error {
+  color: #f7ad19;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f7ad19;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e69916;
+}
+
+.AadharDetailsContainer {
+  margin-top: 20px;
+}
+
+.CardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Card {
+  width: calc(50% - 20px);
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .CardContainer {
+    flex-direction: column;
+  }
+
+  .Card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+.CustomImage{
+  width: 250px;
+  height: 50px;
+}
+.ProfileImage{
+  width: 100px;
+  height: 50px;
+
+}
+.MidCard{
+  display: flex;
+  align-items: center;
+ 
+}
+.MidSec{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.frontcard{
+  margin-top: 30px;
+  width: 50%;
+  height: 270px;
+  padding: 10px;
+    box-shadow: 2px 3px 4px black;
+
+}
+.queqstion{
+  width: 80px;
+  height: 80p;
+ margin-left: 300px;
+
+
+}
+ .MidSec strong{
+  font-size: 13px;
+  margin-left:10px ;
+
+ }.RedLine {
+  border-bottom: 2px solid rgb(218, 21, 21);
+  margin: 10px 0;
+  width: 100%;
+}
+.qrcode{
+  width: 120px;
+  height: 120px;
+  margin-left: 270px;
+}
+.backcard{
+  margin-top: 30px;
+  width: 50%;
+  height: 300px;
+  padding: 10px;
+}
+.backadhar{
+  margin-left: 120px;
+}
